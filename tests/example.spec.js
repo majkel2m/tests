@@ -6,6 +6,6 @@ test("check on Teonite website is Defguard exist", async function ({ page }) {
       .locator("#navbarCollapse > ul > li:nth-child(3) > a")
       .click();
   await page
-      .locator("#ventures-portfolio > div:nth-child(2) > div > div:nth-child(4) > div > div > h3 > imgg")
+      .locator("#ventures-portfolio > div:nth-child(2) > div > div:nth-child(4) > div > div > h3 > img")
       .click();
 });
